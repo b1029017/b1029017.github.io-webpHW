@@ -1,0 +1,75 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <title></title>
+  </head>
+
+  <body>
+    <h2 class="fw-bold text-bg-primary opacity-90">CGU Women Basketball Team</h2>
+    <hr class="border border-warning border-5 opacity-75">
+
+   <table>
+    <table class="table table-hover"></table>
+    <table id="csie">
+     <tr>
+       <th>背號</th>
+       <th>姓名</th>
+       <th>綽號</th>
+       <th>位置</th>
+       <th>其他資料</th>
+     </tr>
+     <tr>
+       <td>02</td>
+       <td>洪瑀婕</td>
+       <td>洪瑀婕</td>
+       <td>得分後衛</td>
+       <td>魔女</td>
+     </tr>
+     <tr>
+        <td>08</td>
+        <td>陳怡瑄</td>
+        <td>小不點</td>
+        <td>控球後衛</td>
+        <td></td>
+     </tr>
+     <tr>
+       <td>11</td>
+       <td>劉書廷</td>
+       <td>劉董</td>
+       <td>得分後衛</td>
+       <td>洗澡很久</td>
+     </tr>
+     <tr>
+       <td>12</td>
+       <td>我</td>
+       <td>小歐</td>
+       <td>中鋒</td>
+       <td></td>
+     </tr>
+     <tr>
+        <td>18</td>
+        <td>欸哩</td>
+        <td>Ally</td>
+        <td>中鋒</td>
+        <td>不擅長被直呼名諱</td>
+     </tr>
+     <tr>
+        <td>43</td>
+        <td>黃亭榕</td>
+        <td>隊長黃</td>
+        <td>小前鋒</td>
+        <td>射手，不能放投，但也不能放切(°ﾛ°٥)</td>
+     </tr>
+    </table>
+    <button onclick="changeResult()">洪瑀婕的新綽號</button>
+  <script>
+    function changeResult() {
+      var myTable = document.getElementById("csie");
+      myTable.rows[1].cells[2].innerHTML="還是洪宇婕";
+    }
+    </script>
+  </body>
+</html>
