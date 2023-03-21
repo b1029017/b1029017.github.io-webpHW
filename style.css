@@ -27,12 +27,28 @@ th {
    table{
        width:80%;
     }
+    td, th {
+ border:80%;
+ padding: 80%;
+    }
+    th {
+ padding-top: 80%;
+ padding-bottom: 80%;
+    }
 }
 
 
 @media(max-width: 540px) {
     table{
         width:70%
+    }
+    td, th {
+        border:70%;
+        padding: 70%;
+    }
+    th {
+        padding-top: 70%;
+         padding-bottom: 70%;
     }
 }
 
