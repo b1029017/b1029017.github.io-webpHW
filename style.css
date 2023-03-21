@@ -1,4 +1,32 @@
-h2{
+.box1 {
+    height: 100px;
+    width:300px;
+    background: lightpink;
+}
+
+@media(max-width: 920px) {
+    .box1 {
+        height: 80px;
+    width:240px;
+        background: orange;
+    }
+}
+
+@media(max-width: 768px) {
+    .box1 {
+        height: 60px;
+    width:180px;
+        background: lightyellow;
+    }
+}
+
+@media(max-width: 540px) {
+    .box1 {
+        height: 40px;
+    width:100px;
+        background: lightgreen;
+    }
+}h2{
     padding: 10;
 }
 table {
