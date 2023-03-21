@@ -28,7 +28,7 @@
 
 @media(max-width: 920px) {
     
-    <h2 class="fw-bold text-bg-primary opacity-90">CGU Women Basketball Team</h2>    
+    <h2 class="fw-bold text-bg-primary opacity-90"> 
     h2{
         padding: 13;
     }
@@ -58,7 +58,7 @@
 
 @media(max-width: 540px) {
     
-    <h2 class="fw-bold text-bg-primary opacity-90">CGU Women Basketball Team</h2>    
+    <h2 class="fw-bold text-bg-primary opacity-90">
     h2{
         padding: 18;
     }
