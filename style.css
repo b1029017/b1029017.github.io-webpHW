@@ -25,30 +25,40 @@ th {
 
 @media(max-width: 920px) {
    table{
+       font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
        width:80%;
     }
     td, th {
- border:80%;
+ border:80% solid #ddd;
  padding: 80%;
     }
     th {
  padding-top: 80%;
  padding-bottom: 80%;
+        text-align: middle;
+ background-color: #689C97;
+ color: white;
     }
 }
 
 
 @media(max-width: 540px) {
     table{
+        font-family: Arial, Helvetica, sans-serif;
+         border-collapse: collapse;
         width:70%
     }
     td, th {
-        border:70%;
+        border:70% solid #ddd;
         padding: 70%;
     }
     th {
         padding-top: 70%;
          padding-bottom: 70%;
+        text-align: middle;
+ background-color: #689C97;
+ color: white;
     }
 }
 
